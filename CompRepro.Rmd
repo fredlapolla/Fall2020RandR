@@ -1,0 +1,24 @@
+---
+title: "Computational Reproducibility"
+author: "Fred LaPolla"
+date: "8/19/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Pulling data:
+
+```{r}
+
+COVID <- read.csv("NYT_COVID_STATES.csv")
+```
+
+## Summarize the data
+
+```{r}
+
+```
+
